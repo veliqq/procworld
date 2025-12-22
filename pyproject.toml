@@ -1,0 +1,26 @@
+[project]
+name = "procworld"
+version = "0.1.0"
+description = "Advanced Procedural World Generator library for Python with JSON and PNG export"
+authors = [
+    { name = "veliqq", email = "veliqorg@proton.me" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/veliqq/procworld"
+Repository = "https://github.com/veliqq/procworld"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.optional-dependencies]
+images = ["Pillow>=9.0.0"]
